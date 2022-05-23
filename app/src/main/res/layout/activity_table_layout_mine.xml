@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableLayout_Mine">
+    <TableLayout
+
+        android:stretchColumns="0,1,2,3"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_margin="1dip"
+        android:layout_height="match_parent">
+
+            <TableRow
+                android:background="#ffffcc99"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               >
+
+                <TextView
+                    android:background="@drawable/border_shape"
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="name"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:background="@drawable/border_shape"
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sex"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:background="@drawable/border_shape"
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="age"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:background="@drawable/border_shape"
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="phoneNumber"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:background="#ffffcc99">
+
+                <TextView
+                    android:background="@drawable/border_shape"
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="张三"
+                    android:gravity="center"/>
+
+                <TextView
+
+                    android:background="@drawable/border_shape"
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="男"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:background="@drawable/border_shape"
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="18"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:background="@drawable/border_shape"
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="19875625698"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="#ffffcc99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:background="@drawable/border_shape"
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="李四"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:background="@drawable/border_shape"
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="女"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:background="@drawable/border_shape"
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="19"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:background="@drawable/border_shape"
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15150825698"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffcc99">
+
+                <TextView
+                    android:background="@drawable/border_shape"
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_column="0"
+                    android:layout_span="2"
+                    android:text="杭州" />
+
+                <TextView
+                    android:background="@drawable/border_shape"
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_column="2"
+                    android:layout_span="2"
+                    android:text="西湖住宅区" />
+            </TableRow>
+
+
+
+
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

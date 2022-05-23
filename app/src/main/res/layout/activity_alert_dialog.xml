@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlertDialogActivity">
+    <Button
+        android:id="@+id/dialog_1"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="基本dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/dialog_2"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_1"
+        android:text="列表dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/dialog_3"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_2"
+        android:text="多选dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/dialog_4"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_3"
+        android:text="等待dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/dialog_5"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_4"
+        android:text="进度条dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/dialog_6"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_5"
+        android:text="不同位置dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/dialog_7"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_6"
+        android:text="增强版dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

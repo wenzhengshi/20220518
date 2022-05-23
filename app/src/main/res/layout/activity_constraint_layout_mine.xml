@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConstraintLayout_Mine">
+<!--   layout_constraintLeft_toLeftOf 控件的左边和指定控件的左边对齐-->
+<!--    layout_constraintLeft_toRightOf 控件的左边和指定控件的右边对齐（在控件右边）-->
+<!--   layout_constraintRight_toLeftOf  控件的右边和指定控件的左边对齐（在控件左边）-->
+<!--    layout_constraintRight_toRightOf 控件的右边和指定控件的右边对齐-->
+
+<!--    app:layout_constraintTop_toTopOf 控件的上边和指定控件的上边对齐-->
+<!--    app:layout_constraintTop_toBottomOf 控件的上边和指定控件的下边对齐（在控件下边）-->
+<!--    app:layout_constraintBottom_toTopOf 控件的下边和指定控件的上边对齐（在控件上边）-->
+<!--    app:layout_constraintBottom_toBottomOf 控件的下边和指定控件的下边对齐-->
+
+<!--    app:layout_constraintLeft_toLeftOf="@+id/my_text"-->
+<!--    app:layout_constraintLeft_toRightOf="@+id/my_text"-->
+<!--    app:layout_constraintRight_toLeftOf="@+id/my_text"-->
+<!--    app:layout_constraintRight_toRightOf="@+id/my_text"-->
+<!--    app:layout_constraintTop_toTopOf="@+id/my_text"-->
+<!--    app:layout_constraintTop_toBottomOf="@+id/my_text"-->
+<!--    app:layout_constraintBottom_toTopOf="@+id/my_text"-->
+<!--    app:layout_constraintBottom_toBottomOf="@+id/my_text"-->
+
+<!--    app:layout_constraintLeft_toLeftOf="@+id/my_text2"-->
+<!--    app:layout_constraintLeft_toRightOf="@+id/my_text2"-->
+<!--    app:layout_constraintRight_toLeftOf="@+id/my_text2"-->
+<!--    app:layout_constraintRight_toRightOf="@+id/my_text2"-->
+<!--    app:layout_constraintTop_toTopOf="@+id/my_text2"-->
+<!--    app:layout_constraintTop_toBottomOf="@+id/my_text2"-->
+<!--    app:layout_constraintBottom_toTopOf="@+id/my_text2"-->
+<!--    app:layout_constraintBottom_toBottomOf="@+id/my_text2"-->
+    <Button
+        android:id="@+id/my_text1"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintBottom_toTopOf="@+id/my_text2"
+        app:layout_constraintLeft_toRightOf="@+id/my_text2"
+        android:text="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <Button
+        android:id="@+id/my_text2"
+        app:layout_constraintRight_toLeftOf="@+id/my_text1"
+        app:layout_constraintBottom_toTopOf="@+id/my_text1"
+        android:text="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/my_text3"
+        app:layout_constraintLeft_toRightOf="@+id/my_text2"
+        app:layout_constraintTop_toBottomOf="@+id/my_text2"
+        android:text="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/my_text4"
+        app:layout_constraintLeft_toRightOf="@+id/my_text3"
+        app:layout_constraintTop_toBottomOf="@+id/my_text1"
+        android:text="4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/my_text5"
+        app:layout_constraintLeft_toRightOf="@+id/my_text3"
+        app:layout_constraintTop_toBottomOf="@+id/my_text3"
+        android:text="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/my_text6"
+        app:layout_constraintLeft_toRightOf="@+id/my_text4"
+        app:layout_constraintBottom_toTopOf="@+id/my_text4"
+        android:text="6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintDimensionRatio="1:1"
+        android:id="@+id/my_text7"
+        app:layout_constraintTop_toBottomOf="@+id/my_text5"
+        app:layout_constraintLeft_toLeftOf="@+id/my_text5"
+        android:text="7"
+        />
+
+
+    <Button
+
+        android:text="8"
+        android:id="@+id/my_text8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="9"
+        android:id="@+id/my_text9"
+        android:layout_marginLeft="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="点我"
+        android:id="@+id/my_text10"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="50dp" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Placeholder
+        android:id="@+id/placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:content="@+id/my_text1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:constraint_referenced_ids="my_text1,my_text2,my_text3,my_text4,my_text5,my_text6,my_text7,my_text8,my_text9"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

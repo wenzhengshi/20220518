@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".TextViewActivity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <com.example.a20220518.MyTextView
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="一、跑马灯 效果  eg：ellipsize 欢迎关注 程序员Android  获取更多Android 开发资料、干货、学习视频！"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:id="@+id/notice_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:lineSpacingExtra="9dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text=""
+            android:textSize="15sp" />
+
+        <TextView
+            android:background="@drawable/shape_circle_text"
+            android:text="有边框的文本"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:background="@drawable/shape_bottom_border_text"
+            android:text="底部边框的文本"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:background="@color/purple_200"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/id_tv_name4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/shape_circle"
+                android:gravity="center"
+                android:text="中小客" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:background="@color/purple_200"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/shape_circle"
+                android:gravity="center"
+                android:text="中小客" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <TextView
+            android:background="@drawable/shape_ti_xing"
+            android:text="底部边框的文本"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:background="@drawable/shape_circle_half"
+                android:text="底部边框的文本"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:text="渐变"
+            android:background="@drawable/shape_color_beautiful"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:background="@drawable/shape_color_beautiful2"
+                android:text="底部边框的文本"
+                android:layout_width="200dp"
+                android:layout_height="200dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
